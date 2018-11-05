@@ -1,0 +1,3 @@
+# Udacity: Blockchain Developer Nanodegree Program
+
+This simple app was made as a tip for Project 2. One of the functions required is **validateBlock**. The instruction to do so is the get the block, store it's hash, hash the block, and then compare the stored hash with the resulted hash of the block. The problem is that block hash was claculated while the *hash* property was empty, and inside **validateBlock** the *hash* property is not empty.
